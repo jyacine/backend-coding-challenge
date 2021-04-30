@@ -1,16 +1,16 @@
 package com.gemography.challenge.svc;
 
 import java.util.Date;
-import java.util.List;
+
+import com.gemography.challenge.model.GithubReposDTO;
 
 public interface ITrendingService {
 
 	/**
 	 * List trending repo
-	 * @param lang code langage
 	 * @param date date
 	 * @return List max size of 100 of trending repo
 	 */
-	List<String> getListRepo(String lang, Date date);
+	GithubReposDTO getListRepo(Date date);
 
 }
