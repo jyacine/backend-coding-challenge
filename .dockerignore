@@ -1,0 +1,12 @@
+# Compiled class file
+*.class
+target/classes
+target/test-classes
+target/surefire-reports
+target/maven*
+.settings
+
+
+# eclipse
+*.project
+*.classpath
