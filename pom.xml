@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.gemography.challenge</groupId>
 	<artifactId>backend-coding-challenge</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>backend-coding-challenge</name>
 	<description>Coding challenge for hiring gemography process about github trending </description>
 	<properties>
